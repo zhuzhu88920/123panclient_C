@@ -1,0 +1,21 @@
+# Local credentials - NEVER commit
+config.json
+config.json.bak
+*.token
+*.token.txt
+GitHub-token.txt
+
+# Runtime output
+logs/
+*.log
+*.part
+
+# Build artifacts (build.ps1 / tests\run.ps1 regenerate them)
+*.exe
+*.o
+*.obj
+
+# Editor / OS
+.vscode/
+Thumbs.db
+Desktop.ini
